@@ -1,0 +1,131 @@
+.footer {
+}
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+.footer_inner {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer_left {
+}
+.footer_logo {
+  margin: 0;
+  font-size: 35px;
+  color: #fff;
+}
+.footer_text{
+  margin: 0;
+  margin-top: 20px;
+  max-width: 320px;
+  font-size: 20px;
+  color: #fff;
+}
+.footer_right {
+  display: flex;
+}
+.footer_div {
+  width: 150px;
+}
+.footer_right>.footer_div:nth-child(2){
+  width: 260px;
+}
+.footer_right>.footer_div:nth-child(3){
+  width: 480px;
+}
+.footer_right_title {
+  color: #fff;
+  font-size: 30px;
+  margin: 0;
+}
+.footer_list {
+  margin-top: 25px;
+  padding: 0;
+}
+.footer_item {
+  margin-top: 10px;
+}
+.footer_link {
+  color: #fff;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 18px;
+  text-decoration: none;
+}
+.footer_left_bottom_list {
+  padding: 0;
+  display: flex;
+}
+.footer_left_bottom_item{
+  margin-top: 40px;
+  margin-right: 40px;
+}
+@media only screen and (max-width: 1200px){
+  .footer_left {
+    margin-left: 20px;
+  }
+  .footer_div:nth-child(1) {
+    display: none;
+  }
+  .footer_div:nth-child(2) {
+    display: none;
+  }
+  .footer_right>.footer_div:nth-child(3){
+    width: 400px;
+  }
+  .footer_list {
+    display: flex;
+  }
+  .footer_item{
+    margin-left: 40px;
+  }
+  .footer_item:nth-child(1){
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 769px){
+  .footer_inner{
+    display: block;
+    padding-top: 50px;
+  }
+  .footer_left {
+    max-width: 550px;
+    margin: 0 auto;
+  }
+  .footer_logo {
+    margin-left: 20px;
+    font-size: 30px;
+  }
+  .footer_text{
+    margin: 0 20px;
+    margin-top: 15px;
+    max-width: 420px;
+    font-size: 20px;
+    color: #fff;
+  }
+  .footer_right>.footer_div:nth-child(3){
+    width: 550px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .footer_right_title{
+    margin-left: 20px;
+  }
+  .footer_list {
+    margin-top: 0px;
+    margin-left: 20px;
+  }
+  .footer_item {
+    margin-top: 18px;
+  }
+  .footer_left_bottom_list{
+    margin-top: 0px;
+    margin-left: 20px;
+  }
+}
+@media only screen and (max-width: 576px){
+  
+}
