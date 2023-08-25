@@ -57,10 +57,7 @@ main {
   transform: all 0.5s;
 }
 
-.active {
-  background: #5932ea;
-  color: #fff;
-}
+
 .icon,
 .link_text {
   font-size: 20px;

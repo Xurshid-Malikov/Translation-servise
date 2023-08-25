@@ -18,8 +18,15 @@
 .header_top_link_left,
 .header_top_link_right {
   text-decoration: none;
-  color: #1F1F1F;
+  color:  #ffc202;
+  font-size: 21px;
 }
+.header_top_link_left:hover,
+.header_top_link_right:hover {
+  color:  #f46141;
+  text-decoration: underline;
+}
+
 
 /* --------------------------------Header Bottom----------------------- */
 

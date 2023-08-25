@@ -1,4 +1,4 @@
-import { Fade } from "react-reveal";
+// import { Fade } from "react-reveal";
 import { NavLink, Route, Routes } from "react-router-dom";
 import styled from "styled-components";
 import { AboutUs, Comment, Contact, Home, Service } from "../../pages";
@@ -12,39 +12,46 @@ const Header = () => {
           <ul className="header_top_list_left menu__box">
             <HeaderLi className="header_top_item_left">
               <NavLink className="header_top_link_left menu__item" to="/#">
-                <Fade top>Ins</Fade>
+                {/* <Fade top>Ins</Fade> */}
+                INs
               </NavLink>
             </HeaderLi>
             <HeaderLi className="header_top_item_left">
               <NavLink className="header_top_link_left menu__item" to="/#">
-                <Fade top>Tel</Fade>
+                {/* <Fade top>Tel</Fade> */}
+                tel
               </NavLink>
             </HeaderLi>
             <HeaderLi className="header_top_item_left">
               <NavLink className="header_top_link_left menu__item" to="/#">
-                <Fade top>Fac</Fade>
+                {/* <Fade top>Fac</Fade> */}
+                fac
               </NavLink>
             </HeaderLi>
             <HeaderLi className="header_top_item_left">
               <NavLink className="header_top_link_left menu__item" to="/#">
-                <Fade top>Twi</Fade>
+                {/* <Fade top>Twi</Fade> */}
+                twi
               </NavLink>
             </HeaderLi>
           </ul>
           <ul className="header_top_list_right menu__box">
             <HeaderLi className="header_top_item_right">
               <NavLink className="header_top_link_right menu__item" to="/#">
-                <Fade top>Em</Fade>
+                {/* <Fade top>Em</Fade> */}
+                em
               </NavLink>
             </HeaderLi>
             <HeaderLi className="header_top_item_right">
               <NavLink className="header_top_link_right menu__item" to="/#">
-                <Fade top>Tel</Fade>
+                {/* <Fade top>Tel</Fade> */}
+                tel
               </NavLink>
             </HeaderLi>
             <HeaderLi className="header_top_item_right">
               <NavLink className="header_top_link_right menu__item" to="/#">
-                <Fade top>Lan</Fade>
+                {/* <Fade top>Lan</Fade> */}
+                lan
               </NavLink>
             </HeaderLi>
           </ul>
