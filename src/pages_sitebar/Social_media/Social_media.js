@@ -24,7 +24,8 @@ export const Social_media = () => {
 
   useEffect(() => {
     axios
-      .get("http://24.199.117.223:8080/api/v1/social-medias/w-sec/")
+      .get("http://24.199.117.223:8080/api/v1/social-medias/", {
+        headers})
       .then((res) => setDishes(res.data))
       .catch((err) => console.log(err));
   }, []);
@@ -57,11 +58,13 @@ export const Social_media = () => {
       {dishes.length && (
         <ul>
           {dishes.map((e) => (
-            <li>
-              {/* <img src={`http://24.199.117.223:8080/api/v1/` + e.icon} alt={e.name} /> */}
+            <li key={e.id} style={{width: "00px"}} className="d-flex">
+              <p>{e.icon}</p>
+              {/* <img src={`http://24.199.117.223:8080/api/v1/social-medias/` + e.icon} alt={e.name} /> */}
               <h2>{e.name}</h2>
               <p>{e.link}</p>
               <p>{e.status}</p>
+            <hr />
             </li>
           ))}
         </ul>
