@@ -1,5 +1,5 @@
 import React from 'react';
-import "./app.css"
+import "./App.css"
 import Public from './Public';
 import Private from "./Private";
 import { Login } from './components/Login/Login';
