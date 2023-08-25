@@ -29,6 +29,10 @@ export const Social_media = () => {
       .catch((err) => console.log(err));
   }, []);
 
+  const Icon = useRef();
+  const Name = useRef();
+  const Link = useRef();
+  const Turi = useRef();
   // const Icon = useRef();
   // const Name = useRef();
   // const Link = useRef();
