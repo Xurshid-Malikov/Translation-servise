@@ -27,8 +27,7 @@ export const User = () => {
 
   useEffect(() => {
     axios
-      .get("http://24.199.117.223:8080/api/v1/users/", {
-        headers})
+      .get("http://24.199.117.223:8080/api/v1/users/")
       .then((res) => setUsers(res.data))
       .catch((err) => console.log(err));
   }, []);
